@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	xmlns:context="http://www.springframework.org/schema/context"
+ 	xmlns:p="http://www.springframework.org/schema/p"
+ 	xmlns:c="http://www.springframework.org/schema/c"
+ 	xsi:schemaLocation="http://www.springframework.org/schema/beans
+ 	http://www.springframework.org/schema/beans/spring-beans.xsd
+ 	http://www.springframework.org/schema/context
+ 	http://www.springframework.org/schema/context/spring-context.xsd">
+ 	
+ 	<!-- 
+ 	<bean class="com.springcore.ci.Certificate" name="cert">
+ 		<constructor-arg value="Data Science"/>
+ 	</bean>
+ 	-->
+ 	
+ 	<bean class="com.springcore.ci.Certificate" name="cert" c:certificateName="Java Backend Development"/>
+ 	
+ 	<bean class="com.springcore.ci.Person" name="person">
+ 		<constructor-arg value="Tejas"/>
+ 		<constructor-arg value="112"/>
+ 		<constructor-arg ref="cert"/>
+ 		<constructor-arg>
+ 			<list>
+ 				<value>Monday</value>
+ 				<value>Tuesday</value>
+ 				<value>Wednesday</value>
+ 			</list>
+ 		</constructor-arg>
+ 	</bean>
+ 	
+ 	<bean class="com.springcore.ci.Addition" name="add">
+ 		<constructor-arg value="10" index="1"/>
+ 		<constructor-arg value="20" index="0"/>
+ 	</bean>
+ 	
+ 	
+ 	<bean class="com.springcore.ci.Addition" name="add1">
+ 		<constructor-arg value="10.45" type="double"/>
+ 		<constructor-arg value="29.55" type="double"/>
+ 	</bean>
+ 	
+ </beans>

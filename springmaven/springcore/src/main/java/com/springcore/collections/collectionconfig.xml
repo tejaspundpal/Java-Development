@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	xmlns:context="http://www.springframework.org/schema/context"
+ 	xmlns:p="http://www.springframework.org/schema/p"
+ 	xsi:schemaLocation="http://www.springframework.org/schema/beans
+ 	http://www.springframework.org/schema/beans/spring-beans.xsd
+ 	http://www.springframework.org/schema/context
+ 	http://www.springframework.org/schema/context/spring-context.xsd">
+ 	
+ 	<bean class="com.springcore.collections.Emp" name="emp1">
+ 	
+ 		<property name="name" value="Tejas"/>
+ 		<property name="phones">
+ 			<list>
+ 				<value>7620872033</value>
+ 				<value>7447871525</value>
+ 			</list>
+ 		</property>
+ 		<property name="addresses">
+ 			<set>
+ 				<value>Uttur</value>
+ 				<value>Ichalkaranji</value>
+ 			</set>
+ 		</property>
+ 		<property name="courses">
+ 			<map>
+ 				<entry key="devops" value="1month"/>
+ 				<entry key="cloud computing" value="2month"/>
+ 				<entry key="Spring Boot" value="1month"/>
+ 			</map>
+ 		</property>
+ 	</bean>
+ </beans>
+ 
+ 
+ 
+ 
+ 
