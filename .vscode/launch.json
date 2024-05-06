@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "BootrestbookApplication",
+            "request": "launch",
+            "mainClass": "src.main.java.com.springboot.api.book.bootrestbook.BootrestbookApplication",
+            "projectName": "Java Development_5fa770"
+        },
+        {
+            "type": "java",
+            "name": "BootrestbookApplication",
+            "request": "launch",
+            "mainClass": "com.springboot.api.book.bootrestbook.BootrestbookApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-BootdevtoolsApplication<bootdevtools>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.springboot.devtools.BootdevtoolsApplication",
+            "projectName": "bootdevtools",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
