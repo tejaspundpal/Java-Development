@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="JDBC/bank/src"/>
+	<classpathentry kind="src" path="JDBC/JDBC practice/src"/>
+	<classpathentry kind="src" path="springboot/bootdevtools/src/main/java"/>
+	<classpathentry kind="src" path="springboot/bootdevtools/src/test/java"/>
+	<classpathentry kind="src" path="springboot/bootjpaexample/src/main/java"/>
+	<classpathentry kind="src" path="springboot/bootjpaexample/src/test/java"/>
+	<classpathentry kind="src" path="springboot/bootrestbook/src/main/java"/>
+	<classpathentry kind="src" path="springboot/bootrestbook/src/test/java"/>
+	<classpathentry kind="src" path="springboot/examplesecurity/src/main/java"/>
+	<classpathentry kind="src" path="springboot/examplesecurity/src/test/java"/>
+	<classpathentry kind="src" path="springboot/firstproject/src/main/java"/>
+	<classpathentry kind="src" path="springboot/firstproject/src/test/java"/>
+	<classpathentry kind="src" path="springmaven/springcore/src/main/java"/>
+	<classpathentry kind="src" path="springmaven/springcore/src/test/java"/>
+	<classpathentry kind="lib" path="JDBC/bank/lib/mysql-connector-j-8.1.0.jar"/>
+	<classpathentry kind="lib" path="springboot/bootdevtools/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="springboot/bootjpaexample/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="springboot/bootrestbook/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="springboot/examplesecurity/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="springboot/firstproject/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="output" path="JDBC/JDBC practice/out/production/untitled104"/>
+</classpath>
