@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8" />
+	<title>thymeleaf learn</title>
+</head>
+<body>
+	<h1>About Us</h1>
+	<h2>We are learning thymeleaf in spring boot</h2>
+	
+	<h1 th:text="${ #strings.toUpperCase(name)}"></h1>
+	<h2>Length of my name is <span th:text="${#strings.length(name)}"></span></h2>
+	<h2>My name is <span th:text="${name}"></span></h2>
+	<h2>Todays date is <span th:text="${currentDate}"></span></h2>
+	
+	<div th:with="a=10,b=5,n=${name}">
+		<h3>value of a is <span th:text="${a}"></span></h3>
+		<h3 th:text="'My Name is '+${n}"></h3>
+		<h3 th:text="'Sum of '+${a}+' and '+${b}+' is '+${a+b}"></h3>
+	</div>
+	
+	<p th:text="${names}"></p>
+	
+	<ul>
+		<li th:each="n,status : ${names}">
+		<span th:style="${status.odd} ? 'font-weight:bold ; color:teal' : '' " th:text="${n}"></span>
+		</li>
+	</ul>
+
+	<h3>User is <span th:style="${isActive} ? 'font-weight:bold ; color:green' : 'font-weight:bold ; color:red'" th:text="${isActive}? 'ACTIVE' : 'NOT ACTIVE'"></span></h3>
+	
+	<h3 th:if="${gender}=='M'">Male</h3>
+	<h3 th:unless="${gender}=='M'">Female</h3>
+</body>
+</html>

@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ThymeleafPracticalApplication",
+            "request": "launch",
+            "mainClass": "ThymeleafPracticalApplication",
+            "projectName": "Java Development"
+        },
+        {
+            "type": "java",
             "name": "BootrestbookApplication",
             "request": "launch",
             "mainClass": "src.main.java.com.springboot.api.book.bootrestbook.BootrestbookApplication",

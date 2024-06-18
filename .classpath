@@ -21,5 +21,24 @@
 	<classpathentry kind="lib" path="springboot/bootrestbook/.mvn/wrapper/maven-wrapper.jar"/>
 	<classpathentry kind="lib" path="springboot/examplesecurity/.mvn/wrapper/maven-wrapper.jar"/>
 	<classpathentry kind="lib" path="springboot/firstproject/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="src" path="springboot/ThymeleafPractical/src/main/java/com/springboot/thymeleaf"/>
+	<classpathentry kind="lib" path="C:/Users/Tejas Pundpal/.m2/repository/org/springframework/spring-web/6.1.6/spring-web-6.1.6.jar" sourcepath="C:/Users/Tejas Pundpal/.m2/repository/org/springframework/spring-web/6.1.6/spring-web-6.1.6-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.springframework"/>
+			<attribute name="maven.artifactId" value="spring-web"/>
+			<attribute name="maven.version" value="6.1.6"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Tejas Pundpal/.m2/repository/org/springframework/spring-context/6.1.8/spring-context-6.1.8.jar" sourcepath="C:/Users/Tejas Pundpal/.m2/repository/org/springframework/spring-context/6.1.8/spring-context-6.1.8-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.springframework"/>
+			<attribute name="maven.artifactId" value="spring-context"/>
+			<attribute name="maven.version" value="6.1.8"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="JDBC/JDBC practice/out/production/untitled104"/>
 </classpath>
