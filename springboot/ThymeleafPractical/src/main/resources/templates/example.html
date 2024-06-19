@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="UTF-8" />
+    <title>thymeleaf learn</title>
+    <link rel="stylesheet" href="" th:href="@{/CSS/myStyle.css}"/>	
+    <script th:src="@{/JS/myScript.js}"></script>
+  </head>
+  <body>
+    <div class="container">
+    <div class="leftside">
+    <h1 class="header">Adding CSS, JS, and Image in Thymeleaf</h1>
+      <h2>Given is the information about Thymeleaf</h2>
+      <img alt="springboot + thymeleaf image" src="/Images/sb-and-thymeleaf.png">
+    </div>
+      
+      <div class="rightside">
+      <button id="change-color-btn" style="margin-left: 10px">Change para color</button>
+      <p id="para">
+       	 Thymeleaf is a Java XML/XHTML/HTML5 template engine that can work both
+        in web (servlet-based) and non-web environments. It is better suited for
+        serving XHTML/HTML5 at the view layer of MVC-based web applications, but
+        it can process any XML file even in offline environments. It provides
+        full Spring Framework integration. In web applications Thymeleaf aims to
+        be a complete substitute for JavaServer Pages (JSP), and implements the
+        concept of Natural Templates: template files that can be directly opened
+        in browsers and that still display correctly as web pages.
+      </p>
+      </div>
+      
+    </div>
+  </body>
+</html>
