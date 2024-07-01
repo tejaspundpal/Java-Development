@@ -1,0 +1,48 @@
+ body {
+      font-family: Arial, sans-serif;
+      background: #e2e2e2!important;
+    }
+    .hero-section {
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://img.freepik.com/free-photo/top-view-chat-bubbles-with-telephone-receiver-copy-space_23-2148796078.jpg') no-repeat center center;
+      background-size: cover;
+      height: 100vh;
+      color: white;
+    }
+    .hero-section h1 {
+      font-size: 4rem;
+      margin-bottom: 20px;
+    }
+    .hero-section p {
+      font-size: 1.5rem;
+    }
+    .btn-primary-custom {
+      background-color: #007bff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1.2rem;
+    }
+    .register-section {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .register-form {
+        background: white;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-top:6rem!important;
+      }
+      .btn-primary-custom {
+        background-color: #007bff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 1rem;
+      }
+      .btn-reset {
+        margin-left: 10px;
+      }
+      .reg-img{
+      height:36px;
+      }
